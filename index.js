@@ -12,20 +12,12 @@ const {app, server} = require ("./server");
 
 let rawdata = fs.readFileSync('db.json');
 let db = JSON.parse(rawdata, null, 2);
-
-/*app.use(function(req, res, next) { 
-    /*console.log (req.body);
-    if (req.method == 'POST')
-        if (req.body.key !== 'romanbr87') res.json (null)
-    next();
-});*/
-  
+ 
 app.get('/favicon.ico', function(req, res, next) { 
     res.sendStatus(204); 
     //next();
 });
   
-
 app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({limit: '50mb', extended: false }));
 app.use(express.json({limit: '50mb'}));
@@ -41,9 +33,14 @@ app.use(logger('dev'));
     res.json ({ status: 40412, message: "HELLO"})
 })*/
 
+app.use(function(req, res, next) { 
+    console.log (req.body);
+    if (req.method == 'POST' && req.body.key !== 'romanbr87') res.status(404).json (null)   
+    else next();
+});
 
 app.post('/', function(req, res, next) { 
-    res.json(db.json); 
+    res.json(db.job); 
 });
 
 app.post('/:id', function(req, res, next) { 
@@ -66,6 +63,4 @@ app.post('/*', function(req, res, next) {
     res.status (404).json ({ status: 404, message: "הדף לא קיים"});
 })
   
-  
-
 module.exports = app;
