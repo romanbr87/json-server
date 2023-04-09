@@ -1,2 +1,2 @@
-# json-server
-json-server for temporary json server hosting
+# Kishurit server 
+simple json db server for Kishurit website
