@@ -2,7 +2,7 @@
     "job": [
         {
             "name": "מקומות עבודה ציבוריים",
-            "desc": "מקומות עבודה ציבוריים מטם המדינה",
+            "desc": "מקומות עבודה ציבוריים מטעם המדינה",
             "links": [
                 {
                     "cat": "אתרי ממשלה",
@@ -133,7 +133,88 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "עבודה נגישה",
+                            "link": "https://avodanegisha.labor.gov.il",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
+                    ]
+                },
+                {
+                    "cat": "גופים וארגונים ממשלתיים/מדיניים",
+                    "links": [
+                        {
+                            "site_name": "מערך הדיגיטל הלאומי",
+                            "link": "https://govextra.gov.il/national-digital-agency/jobs/home/",
+                            "link2": "https://www.gov.il/he/departments/publications/drushim/hr_job",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/gov.il/",
+                            "email1": "HR@DIGITAL.GOV.IL",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "הרשות השופטת - בתי משפט",
+                            "link": "https://www.gov.il/he/Departments/publications/?OfficeId=b7f4cf74-9ceb-454d-a057-e9bdc1dcdae9&blockCollector=true&publicationType=0ec5a7ef-977c-459f-8c0a-dcfbe35c8164&skip=0&limit=10",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "כנסת",
+                            "link": "https://main.knesset.gov.il/About/KnessetWork/pages/wanted.aspx",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "gius.helpdesk@knesset.gov.il",
+                            "email2": "",
+                            "tel1": "02-6408555",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "center"
+                        },
+                        {
+                            "site_name": "כנסת",
+                            "link": "https://careers.boi.org.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/bankofisraelcareer",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/bank-of-israel/",
+                            "email1": "cv@boi.org.il",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+
                     ]
                 },
                 {
@@ -1043,21 +1124,6 @@
                             "facebook_link3": [],
                             "linkedIn_link": "",
                             "email1": "rampaprogram@gmail.com",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "עבודה נגישה",
-                            "link": "https://avodanegisha.labor.gov.il",
-                            "link2": "",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
                             "email2": "",
                             "tel1": "",
                             "tel2": "",
@@ -2648,7 +2714,7 @@
                             "email2": "hanis@vega-hr.co.il",
                             "tel1": "073-320-0732",
                             "tel2": "",
-                            "whatsapp": "⁦054-578-6795⁩",
+                            "whatsapp": "054-578-6795",
                             "location": ""
                         },
                         {
@@ -2663,7 +2729,7 @@
                             "email2": "office@agamimhr.co.il",
                             "tel1": "09-830-8580",
                             "tel2": "",
-                            "whatsapp": "⁦⁩",
+                            "whatsapp": "",
                             "location": ""
                         },
                         {
@@ -2679,7 +2745,7 @@
                             "email2": "",
                             "tel1": "039107475",
                             "tel2": "",
-                            "whatsapp": "⁦⁩",
+                            "whatsapp": "",
                             "location": ""
                         }
                     ]
@@ -3383,6 +3449,21 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "Techit",
+                            "link": "https://www.techit.co.il/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
                    ]
                 },
@@ -3824,6 +3905,22 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "mifalim",
+                            "link": "https://mifalim.co.il/jobs",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "instagram_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
                     ]
                 },
@@ -4026,8 +4123,9 @@
                     "links": [
                         {
                             "site_name": "המרכז לחינוך סייבר",
-                            "link": "https://cyber.org.il",
-                            "link2": "",
+                            "link": "https://cyber.org.il/career-2/",
+                            "link2": "https://cyber.org.il/instructor/",
+                            "link3": "https://cyber.org.il/newapplicant-m/",
                             "facebook_link1": "https://www.facebook.com/cybereducationcenter",
                             "facebook_link2": "",
                             "facebook_link3": [],
@@ -4202,7 +4300,7 @@
                             "email2": "",
                             "tel1": "04-989-7911",
                             "tel2": "",
-                            "whatsapp": "⁦",
+                            "whatsapp": "",
                             "location": "north"
                         },
                         {
@@ -4223,7 +4321,7 @@
                     ]
                 },
                 {
-                    "cat": "חברות מזון",
+                    "cat": "חברות מזון ומשקאות",
                     "links": [
                         {
                             "site_name": "שטראוס",
@@ -4284,6 +4382,21 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "עוף טוב",
+                            "link": "https://www.oftov.co.il/%d7%a7%d7%a8%d7%99%d7%99%d7%a8%d7%94/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "jobs@oftov.co.il",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "north"
                         }
                     ]
                 },
@@ -4337,7 +4450,7 @@
                             "email2": "",
                             "tel1": "",
                             "tel2": "",
-                            "whatsapp": "⁦",
+                            "whatsapp": "",
                             "location": "north"
                         },
                         {
@@ -4362,18 +4475,18 @@
                     "cat": "חברות, שונות",
                     "links": [                       
                         {
-                            "site_name": "כמיפל משאבי אנוש",
-                            "link": "http://www.chemipal.co.il/he/%d7%a7%d7%a8%d7%99%d7%a8%d7%94-3",
+                            "site_name": "כמיפל",
+                            "link": "https://www.chemipal.co.il/career-2/",
                             "link2": "",
                             "facebook_link1": "https://www.facebook.com/chemipaljobs",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "https://www.linkedin.com/company/chemipal",
-                            "email1": "",
+                            "email1": "sarah@chemipal.co.il",
                             "email2": "",
                             "tel1": "09-8633633",
-                            "tel2": "",
-                            "whatsapp": "⁦",
+                            "tel2": "050-533-9270",
+                            "whatsapp": "",
                             "location": "center"
                         },
                         {
@@ -4390,7 +4503,23 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": "north"
+                        },
+                        {
+                            "site_name": "צמח תערובות",
+                            "link": "https://zmf.co.il/careers/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "north"
                         }
+
                     ]
                 }               
             ]
@@ -4486,7 +4615,7 @@
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
-                            "email1": "",
+                            "email1": "niritto@cellcom.co.il",
                             "email2": "",
                             "tel1": "",
                             "tel2": "",
@@ -4919,6 +5048,21 @@
                             "location": ""
                         },
                         {
+                            "site_name": "GOODPHARM",
+                            "link": "https://goodpharm.co.il/jobs/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
                             "site_name": "ללין",
                             "link": "https://www.laline.co.il/careers",
                             "link2": "",
@@ -5006,7 +5150,7 @@
                     ]
                 },
                 {
-                    "cat": "כולבו",
+                    "cat": "1כולבו",
                     "links": [
                         {
                             "site_name": "המשביר לצרכן",
@@ -5023,6 +5167,26 @@
                             "whatsapp": "",
                             "location": ""
                         },
+                        {
+                            "site_name": "chozen",
+                            "link": "https://chozen.co.il/drushim",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "2כולבו",
+                    "links": [
                         {
                             "site_name": "זולסטוק",
                             "link": "https://www.zolstock.co.il/%D7%A2%D7%91%D7%95%D7%93%D7%94-%D7%91%D7%96%D7%95%D7%9C-%D7%A1%D7%98%D7%95%D7%A7",
@@ -5389,7 +5553,28 @@
                             "location": ""
                         }
                     ]
+                },
+                {
+                    "cat": "רשתות וחנויות משקאות",
+                    "links": [
+                        {
+                            "site_name": "HERMITAGE",
+                            "link": "https://www.hermitage.co.il/jobs/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
                 }                
+
             ]
         },
         {
@@ -6078,7 +6263,7 @@
                             "location": ""
                         },
                         {
-                            "site_name": "רשות מקדמת תעסוקה - מרכז הון אנושי כרמיאל",
+                            "site_name": "מרכז צעירים כרמיאל",
                             "link": "https://www.facebook.com/karmiel.hon",
                             "link2": "",
                             "facebook_link1": "",
@@ -6112,8 +6297,8 @@
             ]
         },
         {
-            "name": "שונות 2",
-            "desc": "",
+            "name": "אחרים",
+            "desc": "אתרים וארגונים שונים בתחום התעסוקה וההכשרה המקצועית",
             "links": [
                 {
                     "cat": "אתרים, חברות וכל מה שמסביב לעולם התעסוקה",
