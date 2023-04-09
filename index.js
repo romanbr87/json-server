@@ -9,10 +9,14 @@ require('dotenv').config();
 const nocache = require("nocache");
 const fs = require('fs');
 const {app, server} = require ("./server");
+/*const db = require ('./db')
+const categories = require ('./server/models/categories.model').categoriesModel;
+const subCategories = require ('./server/models/subCategories.model').subCategoriesModel;*/
 
-let rawdata = fs.readFileSync('db.json');
-let db = JSON.parse(rawdata, null, 2);
- 
+//const rawdata = fs.readFileSync('db.json');
+//let jsonDB = JSON.parse(rawdata, null, 2);
+var jsonDB = require ('./db.json');
+
 app.get('/favicon.ico', function(req, res, next) { 
     res.sendStatus(204); 
     //next();
@@ -35,24 +39,25 @@ app.use(logger('dev'));
 
 app.use(function(req, res, next) { 
     console.log (req.body);
-    if (req.method == 'POST' && req.body.key !== 'romanbr87') res.status(404).json (null)   
+    if (req.method == 'POST' && req.body.key !== 'romanbr87') res.status(404).json (null)
+    
     else next();
 });
 
 app.post('/', function(req, res, next) { 
-    res.json(db.job); 
+    res.json(jsonDB.job); 
 });
 
 app.post('/:id', function(req, res, next) { 
-    res.json(db.job[req.params.id]); 
+    res.json(jsonDB.job[req.params.id]); 
 });
 
 app.post('/:id1/:id2', function(req, res, next) { 
-    res.json(db.job[req.params.id1].links[req.params.id2]); 
+    res.json(jsonDB.job[req.params.id1].links[req.params.id2]); 
 });
 
 app.post('/:id1/:id2/:id3', function(req, res, next) { 
-    res.json(db.job[req.params.id1].links[req.params.id2].links[req.params.id3]); 
+    res.json(jsonDB.job[req.params.id1].links[req.params.id2].links[req.params.id3]); 
 });
 
 app.get('/*', function(req, res, next) {
@@ -61,6 +66,6 @@ app.get('/*', function(req, res, next) {
   
 app.post('/*', function(req, res, next) {
     res.status (404).json ({ status: 404, message: "הדף לא קיים"});
-})
-  
+})  
+
 module.exports = app;
