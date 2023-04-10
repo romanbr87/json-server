@@ -1,2 +1,3 @@
 # Kishurit server 
-simple json db server for Kishurit website
+Simple data server for the website "Kishurit"
+
