@@ -690,22 +690,6 @@
                             "location": "north"
                         },
                         {
-                            "site_name": "משרות סטודנט בטככניון",
-                            "link": "https://hr.technion.ac.il/positions-for-students",
-                            "link2": "https://www.asat.org.il/life/contents/temp-jobs/%D7%A2%D7%91%D7%95%D7%93%D7%95%D7%AA_%D7%96%D7%9E%D7%A0%D7%99%D7%95%D7%AA",
-                            "link3": "https://www.asat.org.il/life/contents/jobs/%D7%A2%D7%91%D7%95%D7%93%D7%95%D7%AA_%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99%D7%95%D7%AA",
-                            "facebook_link1": "https://www.asat.org.il/life/contents/jobs/%D7%A2%D7%91%D7%95%D7%93%D7%95%D7%AA_%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99%D7%95%D7%AA",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": "north"
-                        },
-                        {
                             "site_name": "אוניברסיטת חיפה",
                             "link": "https://www.haifa.ac.il/index.php/he/open-positions.html",
                             "link2": "",
@@ -1486,7 +1470,7 @@
                             "facebook_link1": "https://www.facebook.com/ManpowerIL",
                             "facebook_link2": "",
                             "facebook_link3": [],
-                            "linkedIn_link": "",
+                            "linkedIn_link": "https://www.linkedin.com/company/manpower-israel/",
                             "email1": "manpower@manpower.co.il",
                             "email2": "",
                             "tel1": "03-5639999",
@@ -2702,6 +2686,21 @@
                             "tel2": "",
                             "whatsapp": "054-729-2472",
                             "location": "center, south"
+                        },
+                        {
+                            "site_name": "Job Ninja - jobninja",
+                            "link": "https://www.jobninja.co.il/",
+                            "link2": "https://www.jobninja.co.il/applicant_search.aspx",
+                            "facebook_link1": "https://www.facebook.com/job1ninja/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/cvpool/",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
                     ]
                 },
@@ -3656,7 +3655,7 @@
                             "facebook_link1": "https://www.facebook.com/misrot.jobs",
                             "facebook_link2": "",
                             "facebook_link3": [],
-                            "linkedIn_link": "",
+                            "linkedIn_link": "https://www.linkedin.com/company/misrot/",
                             "email1": "info@misrot.com",
                             "email2": "",
                             "tel1": "077-345-1111",
@@ -3671,7 +3670,7 @@
                             "facebook_link1": "https://www.facebook.com/AllJobs",
                             "facebook_link2": "",
                             "facebook_link3": [],
-                            "linkedIn_link": "",
+                            "linkedIn_link": "https://www.linkedin.com/company/alljobs/",
                             "email1": "",
                             "email2": "",
                             "tel1": "",
@@ -3731,7 +3730,7 @@
                             "facebook_link1": "https://www.facebook.com/drushim.co.il",
                             "facebook_link2": "",
                             "facebook_link3": [],
-                            "linkedIn_link": "",
+                            "linkedIn_link": "https://www.linkedin.com/company/portal-drushim-israel/",
                             "email1": "",
                             "email2": "",
                             "tel1": "",
@@ -4003,6 +4002,22 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "Jobig",
+                            "link": "https://jobig.co.il/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/jobig/",
+                            "instagram_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
                     ]
                 },
@@ -4143,6 +4158,22 @@
                             "location": ""
                         },
                         {
+                            "site_name": "משרות סטודנט-טככניון",
+                            "link": "https://hr.technion.ac.il/positions-for-students",
+                            "link2": "https://www.asat.org.il/life/contents/temp-jobs/%D7%A2%D7%91%D7%95%D7%93%D7%95%D7%AA_%D7%96%D7%9E%D7%A0%D7%99%D7%95%D7%AA",
+                            "link3": "https://www.asat.org.il/life/contents/jobs/%D7%A2%D7%91%D7%95%D7%93%D7%95%D7%AA_%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99%D7%95%D7%AA",
+                            "facebook_link1": "https://www.asat.org.il/life/contents/jobs/%D7%A2%D7%91%D7%95%D7%93%D7%95%D7%AA_%D7%9E%D7%A7%D7%A6%D7%95%D7%A2%D7%99%D7%95%D7%AA",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "north"
+                        },
+                        {
                             "site_name": "הנדסאים טכניון",
                             "link": "https://www.pet.ac.il/%D7%9E%D7%A9%D7%A8%D7%95%D7%AA_%D7%9C%D7%91%D7%95%D7%92%D7%A8%D7%99%D7%9D",
                             "link2": "",
@@ -4156,17 +4187,32 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": "north"
+                        },
+                        {
+                            "site_name": "אשקלונט",
+                            "link": "https://board.ashkelonim.co.il/%D7%94%D7%A6%D7%A2%D7%95%D7%AA-%D7%A2%D7%91%D7%95%D7%93%D7%94",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "south"
                         }
                     ]
                 }
             ]
         },
         {
-            "name": "חברות הייטק",
+            "name": "חברות הייטק וסייבר",
             "desc": "",
             "links": [
                 {
-                    "cat": "חברות הייטק",
+                    "cat": "IT & HeighTech",
                     "links": [
                         {
                             "site_name": "Sqlink",
@@ -4190,7 +4236,37 @@
                             "facebook_link1": "https://www.facebook.com/Matrixtechnology",
                             "facebook_link2": "",
                             "facebook_link3": [],
-                            "linkedIn_link": "",
+                            "linkedIn_link": "https://www.linkedin.com/company/matrix/",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "MalamTeam - מלם תים",
+                            "link": "https://www.malamteam.com/malamteam_career/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/teamITisrael",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/malam/",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Ness Technologies",
+                            "link": "https://www.ness-tech.co.il/careers/",
+                            "link2": "https://www.ness-tech.co.il/joinus",
+                            "facebook_link1": "https://www.facebook.com/NessTechnologiesIsrael/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/ness-technologies/",
                             "email1": "",
                             "email2": "",
                             "tel1": "",
