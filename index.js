@@ -35,9 +35,20 @@ function sendMail(email, subject, body, req, res) {
         host: "smtp-relay.sendinblue.com",
         port: 587,
           auth: {
-          user: 'romanbr87@gmail.com',
-          pass: 'dUgCAK4VG8052faH'
+          user: 'ronenbr60@gmail.com',
+          pass: 'S92HnpJErxX4LFmM'
         }
+        /*service: 'hotmail',
+        host: 'smtp-mail.outlook.com',
+        secureConnection: false, // TLS requires secureConnection to be false
+        port: 587, // port for secure SMTP
+        tls: {
+           ciphers:'SSLv3'
+        },
+        auth : {
+            user : 'ronenbr60@hotmail.com',
+            pass : 'qaz12qaz'
+        }*/        
     });
           
     const mailOptions = {
@@ -95,7 +106,7 @@ app.post('/neworg', function(req, res, next) {
     const { name, link1, link2, link3, facebook_link1, facebook_link2,
         linkedIn_link, instagram_link, email1, email2, tel1, tel2, whatsapp, region, message } = (req.body);
 
-        let details = {
+        const details = {
             site_name: name,
             link1: link1,
             link2: link2,
@@ -112,7 +123,7 @@ app.post('/neworg', function(req, res, next) {
             region: region,
           };
   
-          const email = `${JSON.stringify(details, null, 2)}</code>\n ${message}`
+          const email = `${JSON.stringify(details, null, 2)}\n ${message}`
     sendMail('romanbr@walla.com', 'new organization', email, req, res);
 })  
 

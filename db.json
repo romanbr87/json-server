@@ -1339,7 +1339,7 @@
                         {
                             "site_name": "מטב",
                             "link": "https://www.matav.org.il/%d7%93%d7%a8%d7%95%d7%a9%d7%99%d7%9d",
-                            "link2": "",
+                            "link2": "https://correct-tech.co.il/LP/ALL?id=psroz_nlv_ihnw_ptptk_pqm_vuqwh_qol",
                             "facebook_link1": "https://www.facebook.com/matavcareer ",
                             "facebook_link2": "https://www.facebook.com/hahorim.shelanu",
                             "facebook_link3": [],
@@ -5057,7 +5057,7 @@
                         },
                         {
                             "site_name": "יוחננוף",
-                            "link": "https://yochananof.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D",
+                            "link": "https://lp.yochananof.co.il/drushim/",
                             "link2": "",
                             "facebook_link1": "",
                             "facebook_link2": "",
@@ -5328,7 +5328,7 @@
                     ]
                 },
                 {
-                    "cat": "1כולבו",
+                    "cat": "כלבו",
                     "links": [
                         {
                             "site_name": "המשביר לצרכן",
@@ -5363,7 +5363,7 @@
                     ]
                 },
                 {
-                    "cat": "2כולבו",
+                    "cat": "רשתות סטוק",
                     "links": [
                         {
                             "site_name": "זולסטוק",
@@ -5452,7 +5452,57 @@
                     ]
                 },
                 {
-                    "cat": "חנויות בגדים, נעליים",
+                    "cat": "חנויות נעליים",
+                    "links": [                       
+                        {
+                            "site_name": "Togo Shoes",
+                            "link": "https://www.tevanaot.co.il/careers",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/togoshoes",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Gali",
+                            "link": "https://www.gali.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "טבע נאות",
+                            "link": "https://www.tevanaot.co.il/careers",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/tevanaotshoes",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "חנויות בגדים",
                     "links": [                       
                         {
                             "site_name": "Golf gropup - קבוצת גולף",
@@ -5486,7 +5536,7 @@
                         },
                         {
                             "site_name": "עדיקא - Adika",
-                            "link": "https://www.adikastyle.com/adika-jobs",
+                            "link": "https://adikastyle.com/pages/adika-jobs",
                             "link2": "",
                             "facebook_link1": "https://www.facebook.com/AdiKaF.S",
                             "facebook_link2": "",
@@ -5517,23 +5567,8 @@
                         {
                             "site_name": "Castro",
                             "link": "https://www.castro.com/jobs",
-                            "link2": "",
+                            "link2": "https://lp.vp4.me/xa6g/",
                             "facebook_link1": "https://www.facebook.com/castro.il",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "Timberland",
-                            "link": "https://www.timberland.co.il/careers-timberland-page",
-                            "link2": "",
-                            "facebook_link1": "https://www.facebook.com/timberland.co.il",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -5575,51 +5610,6 @@
                             "location": ""
                         },
                         {
-                            "site_name": "Gali",
-                            "link": "https://www.gali.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D",
-                            "link2": "",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "טבע נאות",
-                            "link": "https://www.tevanaot.co.il/careers",
-                            "link2": "",
-                            "facebook_link1": "https://www.facebook.com/tevanaotshoes",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "Togo Shoes",
-                            "link": "https://www.tevanaot.co.il/careers",
-                            "link2": "",
-                            "facebook_link1": "https://www.facebook.com/togoshoes",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
                             "site_name": "Zara - זארה",
                             "link": "https://www.zara.com/il/he/help/jobs-company-h48.html",
                             "link2": "",
@@ -5633,11 +5623,46 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
+                        },
+                        {
+                            "site_name": "urbanica - אורבניקה",
+                            "link": "https://www.urbanica-wh.com/jobs/",
+                            "link2": "https://urbanica.vp4.me/urbanica",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }                     
                     ]
                 },
                 {
-                    "cat": "חנויות, שונות",
+                    "cat": "חנויות רהיטים ומוצרים לבית",
+                    "links": [
+                        {
+                            "site_name": "Ikea - איקאה",
+                            "link": "https://www.ikea.co.il/content/page/jobs",
+                            "link2": "https://www.ikea.co.il/content/page/working-at-the-ikea-group",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "רשתות למטיילים, ציוד צבאי",
                     "links": [
                         {
                             "site_name": "ריקושט",
@@ -5655,22 +5680,7 @@
                             "location": ""
                         },
                         {
-                            "site_name": "Ikea - איקאה",
-                            "link": "https://www.ikea.co.il/content/page/jobs",
-                            "link2": "https://www.ikea.co.il/content/page/working-at-the-ikea-group",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "ריקושט",
+                            "site_name": "למטייל",
                             "link": "https://www.lametayel.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D",
                             "link2": "",
                             "facebook_link1": "https://www.facebook.com/lametayel",
