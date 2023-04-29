@@ -8,6 +8,7 @@ const nodemailer = require("nodemailer");
 const nocache = require("nocache");
 const fs = require('fs');
 const {app, server} = require ("./server");
+require('dotenv').config();
 /*const db = require ('./db')
 const categories = require ('./server/models/categories.model').categoriesModel;
 const subCategories = require ('./server/models/subCategories.model').subCategoriesModel;*/
@@ -21,34 +22,23 @@ app.get('/favicon.ico', function(req, res, next) {
     //next();
 });
   
+app.use(cors({ origin: "*", credentials: true, optionSuccessStatus:200 }));
 app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({limit: '50mb', extended: false }));
 app.use(express.json({limit: '50mb'}));
 app.use(express.urlencoded({limit: '50mb', extended: false }));
-app.use(cors({ origin: "*", credentials: true, optionSuccessStatus:200 }));
 app.use(nocache());
 app.use(logger('dev'));
 
 function sendMail(email, subject, body, req, res) {  
     // create reusable transporter object using the default SMTP transport
     const transporter = nodemailer.createTransport({
-        host: "smtp-relay.sendinblue.com",
+        host: process.env.EMAIL_HOST,
         port: 587,
           auth: {
-          user: 'ronenbr60@gmail.com',
-          pass: 'S92HnpJErxX4LFmM'
+          user: process.env.EMAIL_USER,
+          pass: process.env.EMAIL_PASS
         }
-        /*service: 'hotmail',
-        host: 'smtp-mail.outlook.com',
-        secureConnection: false, // TLS requires secureConnection to be false
-        port: 587, // port for secure SMTP
-        tls: {
-           ciphers:'SSLv3'
-        },
-        auth : {
-            user : 'ronenbr60@hotmail.com',
-            pass : 'qaz12qaz'
-        }*/        
     });
           
     const mailOptions = {
@@ -72,7 +62,7 @@ function sendMail(email, subject, body, req, res) {
         }
     });
         
-  }
+}
   
 const verifyData = (data, res, next) => (!data) ? next() : res.json(data); 
 
@@ -81,8 +71,7 @@ app.get('/*', function(req, res, next) {
 })
 
 app.use(function(req, res, next) { 
-    console.log (req.body);
-    if (req.method == 'POST' && req.body.key !== 'romanbr87') res.status(404).json (null)
+    if (req.method == 'POST' && req.body.key !== process.env.API_KEY) res.status(404).json (null)
     
     else next();
 });
