@@ -128,7 +128,14 @@ app.post('/totalNum', function(req, res, next) {
 });
 
 app.post('/', function(req, res, next) { 
-    res.json(jsonDB.job); 
+    const data = jsonDB.job.reduce((acc,element) => {
+        const totalCatNum = element.links.reduce ((acc1, element1) => acc1 + element1.links.length, 0)
+        acc.total += totalCatNum;  
+        acc.cat.push ({name: element.name, totNum: totalCatNum});
+        return acc;
+    }, {total: 0, cat: []})
+   
+    res.json (data);
 });
 
 app.post('/:id/catName', function(req, res, next) { 
