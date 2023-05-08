@@ -17,7 +17,13 @@ const options: cors.CorsOptions = {
     methods: 'GET,PUT,POST,DELETE',
     origin: "*",
     preflightContinue: false,
-  };
+};
+
+router.use(function(req: Request, res: Response){
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Header' , 'authorization');
+});
+ 
 
 router.use(cors(options));
 router.use(express.json({limit: '50mb'}));
@@ -25,7 +31,8 @@ router.use(express.urlencoded({limit: '50mb', extended: false }));
 router.use(nocache());
 router.use(morgan('dev'));
 
-const rawdata: Buffer = fs.readFileSync('C:\\Users\\DELL\\Desktop\\Roman\\various\\LinksTable1\\json-server\\db.json');
+//const rawdata: Buffer = fs.readFileSync('C:\\Users\\DELL\\Desktop\\Roman\\various\\LinksTable1\\json-server\\db.json');
+const rawdata: Buffer = fs.readFileSync('./src/db.json');
 const jsonDB = JSON.parse(rawdata.toString(), (key, value) => value);
 
 const verifyData = (data: any, res: Response, next: NextFunction): void => {
