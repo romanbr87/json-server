@@ -18,10 +18,11 @@ const options: cors.CorsOptions = {
     preflightContinue: false,
 };
 
-app.use(function(req: Request, res: Response){
+/*app.use(function(req: Request, res: Response){
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Header' , 'authorization');
-});
+    next ();
+});*/
   
 app.use(cors(options));
 app.use(express.json({limit: '50mb'}));

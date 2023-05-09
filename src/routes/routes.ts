@@ -1,37 +1,11 @@
-import cors from 'cors';
 import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 dotenv.config()
-import morgan from 'morgan';
 import express, { NextFunction, Request, Response } from 'express';
-import nocache from 'nocache';
 import * as fs from 'fs';
 import {Kishurit, Categorie, SubCategorie, Bussiness, Location} from '../types';
 import MailService from "../controller/MailService"
 const router: express.Router = express.Router()
 
-const options: cors.CorsOptions = {
-    allowedHeaders: [
-      'Content-Type',
-    ],
-    credentials: true,
-    methods: 'GET,PUT,POST,DELETE',
-    origin: "*",
-    preflightContinue: false,
-};
-
-router.use(function(req: Request, res: Response){
-  res.header('Access-Control-Allow-Origin', '*');
-  res.header('Access-Control-Allow-Header' , 'authorization');
-});
- 
-
-router.use(cors(options));
-router.use(express.json({limit: '50mb'}));
-router.use(express.urlencoded({limit: '50mb', extended: false }));
-router.use(nocache());
-router.use(morgan('dev'));
-
-//const rawdata: Buffer = fs.readFileSync('C:\\Users\\DELL\\Desktop\\Roman\\various\\LinksTable1\\json-server\\db.json');
 const rawdata: Buffer = fs.readFileSync('./src/db.json');
 const jsonDB = JSON.parse(rawdata.toString(), (key, value) => value);
 
@@ -44,13 +18,7 @@ router.use(function(req: Request, res: Response, next: NextFunction) {
     
     else next();
 });
-
-/*router.get('/', (req: Request, res: Response) => {
-    const prettyJson: string = JSON.stringify(jsonDB, null, 2); // Indent with 2 spaces
-    res.header('Content-Type', 'application/json');
-    res.send(prettyJson);
-});*/
-  
+ 
 router.get('/*', function(req: Request, res: Response, next: NextFunction) {
     res.status(404).json ({ status: 404, message: "הדף לא קיים"})
 })
