@@ -26,34 +26,12 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const cors_1 = __importDefault(require("cors"));
 const dotenv = __importStar(require("dotenv")); // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
 dotenv.config();
-const morgan_1 = __importDefault(require("morgan"));
 const express_1 = __importDefault(require("express"));
-const nocache_1 = __importDefault(require("nocache"));
 const fs = __importStar(require("fs"));
 const MailService_1 = __importDefault(require("../controller/MailService"));
 const router = express_1.default.Router();
-const options = {
-    allowedHeaders: [
-        'Content-Type',
-    ],
-    credentials: true,
-    methods: 'GET,PUT,POST,DELETE',
-    origin: "*",
-    preflightContinue: false,
-};
-router.use(function (req, res) {
-    res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Header', 'authorization');
-});
-router.use((0, cors_1.default)(options));
-router.use(express_1.default.json({ limit: '50mb' }));
-router.use(express_1.default.urlencoded({ limit: '50mb', extended: false }));
-router.use((0, nocache_1.default)());
-router.use((0, morgan_1.default)('dev'));
-//const rawdata: Buffer = fs.readFileSync('C:\\Users\\DELL\\Desktop\\Roman\\various\\LinksTable1\\json-server\\db.json');
 const rawdata = fs.readFileSync('./src/db.json');
 const jsonDB = JSON.parse(rawdata.toString(), (key, value) => value);
 const verifyData = (data, res, next) => {
@@ -65,11 +43,6 @@ router.use(function (req, res, next) {
     else
         next();
 });
-/*router.get('/', (req: Request, res: Response) => {
-    const prettyJson: string = JSON.stringify(jsonDB, null, 2); // Indent with 2 spaces
-    res.header('Content-Type', 'application/json');
-    res.send(prettyJson);
-});*/
 router.get('/*', function (req, res, next) {
     res.status(404).json({ status: 404, message: "הדף לא קיים" });
 });

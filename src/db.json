@@ -958,15 +958,15 @@
                         {
                             "site_name": "מרכז תעסוקה גולן",
                             "link": "https://www.golanjobs.co.il",
-                            "link2": "",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
+                            "link2": "https://www.calcali-golan.co.il/",
+                            "facebook_link1": "https://www.facebook.com/golanjobs/",
+                            "facebook_link2": "https://www.facebook.com/yazamut.golan",
                             "facebook_link3": [],
                             "linkedIn_link": "",
-                            "email1": "",
+                            "email1": "tasuka@megolan.org.il",
                             "email2": "",
-                            "tel1": "",
-                            "tel2": "",
+                            "tel1": "04-6851004",
+                            "tel2": "050-788-7012",
                             "whatsapp": "",
                             "location": "north"
                         },
@@ -988,7 +988,7 @@
                     ]
                 },
                 {
-                    "cat": "מתנסים",
+                    "cat": "מתנסים ומרכזים קהילתיים",
                     "links": [
                         {
                             "site_name": "מתנס מגדל העמק",
@@ -1023,6 +1023,21 @@
                         {
                             "site_name": "מרכז קהילתי בית שאן",
                             "link": "https://www.matnas-bs.org.il/page.php?type=requireds&ht=%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "north"
+                        },
+                        {
+                            "site_name": "מרכז קהילתי רמת ישי",
+                            "link": "https://www.matnasry.co.il/wanted/",
                             "link2": "",
                             "facebook_link1": "",
                             "facebook_link2": "",
@@ -5894,7 +5909,7 @@
                         },
                         {
                             "site_name": "קבוצת UMI",
-                            "link": "https://www.chevrolet.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D",
+                            "link": "https://www.chevrolet.co.il/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D/",
                             "link2": "http://www.umigroup.co.il",
                             "facebook_link1": "https://www.facebook.com/umigroupjobs",
                             "facebook_link2": "",

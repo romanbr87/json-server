@@ -43,10 +43,11 @@ const options = {
     origin: "*",
     preflightContinue: false,
 };
-server_1.app.use(function (req, res) {
+/*app.use(function(req: Request, res: Response){
     res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Header', 'authorization');
-});
+    res.header('Access-Control-Allow-Header' , 'authorization');
+    next ();
+});*/
 server_1.app.use((0, cors_1.default)(options));
 server_1.app.use(express_1.default.json({ limit: '50mb' }));
 server_1.app.use(express_1.default.urlencoded({ limit: '50mb', extended: false }));
