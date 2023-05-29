@@ -24,12 +24,22 @@ router.get('/*', function(req: Request, res: Response, next: NextFunction) {
 })
 
 router.post('/mail', function(req: Request, res: Response, next: NextFunction) {
-    const mailDetails = (req.body);
-    var {email, subject, body, name, tel} = mailDetails;
-    if (name.trim() == '') name = undefined;
-    if (tel.trim() == '') tel = undefined;
-    const mail = `Message from ${name} tel: ${tel}\n ${body.trim()}`;
+    type Data = {    
+        email: string, 
+        subject: string, 
+        name: string, 
+        tel: string, 
+        message: string, 
+    }
+    const { data } = req.body as { data: Data}; // Cast req.body to the expected type 
+    var { email, subject, name, tel, message } = data;
     
+    if (name.trim() === '') name = undefined;
+    if (tel.trim() === '') tel = undefined;
+    if (email.trim() === '') email = "romanbr@walla.com";
+    const mail = `Message from ${name} tel: ${tel}\n ${message.trim()}`;
+    
+    console.log (mail);
     MailService.sendMail ({from: email, subject: subject, text: mail}, req, res);
 })  
 
@@ -60,9 +70,9 @@ router.post('/report', function(req: Request, res: Response, next: NextFunction)
     }
     
     const { data } = req.body as { data: Data}; // Cast req.body to the expected type 
-    //const email = `${JSON.stringify(data, null, 2)}\n`;
-    //MailService.sendMail({ from: 'romanbr@walla.com', subject: 'new organization', text: email }, req, res);*/
-    res.send(data);
+    const email = `${JSON.stringify(data, null, 2)}\n`;
+    MailService.sendMail({ from: 'romanbr@walla.com', subject: 'new organization', text: email }, req, res);
+    //res.send(data);
   });
 
 router.post('/search', (req: Request, res: Response) => {

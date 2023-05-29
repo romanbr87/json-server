@@ -45,11 +45,14 @@ class MailService {
                     yield this.createConnection();
                 }
                 options.to = 'drushimgalil@gmail.com';
+                console.log(options);
                 const info = yield this.getTransporter().sendMail(options);
                 yield this.verifyConnection(info);
+                res.send(options);
             }
             catch (err) {
                 console.error(err);
+                res.status(404).json({ status: 404, message: err });
             }
         });
     }

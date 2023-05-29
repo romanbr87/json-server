@@ -765,6 +765,27 @@
                             "location": "north"
                         }
                     ]
+                },
+                {
+                    "cat": "גופים ציבוריים שונים",
+                    "links": [
+                        {
+                            "site_name": "מתי - מכון התקנים הישראלי",
+                            "link": "",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "03-6467696",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "center",
+                            "address": "חיים לבנון 42, תל אביב"
+                        }
+                    ]
                 }
             ]
         },
@@ -975,6 +996,71 @@
                             "link": "http://zemach.co.il/sample-page-3",
                             "link2": "",
                             "facebook_link1": "https://www.facebook.com/zemachcorp",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "north"
+                        }
+                    ]
+                },
+                {
+                    "cat": "אתרי מועצות",
+                    "links": [
+                        {
+                            "site_name": "מועצה אזורית עמק הירדן",
+                            "link": "https://www.j-v.org.il/boards/jobs/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "north"
+                        },
+                        {
+                            "site_name": "מועצה אזורית גליל תחתון",
+                            "link": "https://www.glt.org.il/bids/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "north"
+                        },
+                        {
+                            "site_name": "מועצה אזורית עמק יזרעאל",
+                            "link": "https://www.emekyizrael.org.il/bids/#bids-category-3-title/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": "north"
+                        },
+                        {
+                            "site_name": "מועצה אזורית גלבוע",
+                            "link": "https://www.hagilboa.org.il/wanted/?archive=1/",
+                            "link2": "",
+                            "facebook_link1": "",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -1743,21 +1829,6 @@
                             "link": "https://www.hrsearch.co.il",
                             "link2": "",
                             "facebook_link1": "https://www.facebook.com/hrsearchtourismjobs",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
-                        },
-                        {
-                            "site_name": "RUNNER",
-                            "link": "http://runner.co.il",
-                            "link2": "",
-                            "facebook_link1": "https://www.facebook.com/cvrunner",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -2744,12 +2815,27 @@
                             "facebook_link1": "https://www.facebook.com/job1ninja/",
                             "facebook_link2": "",
                             "facebook_link3": [],
-                            "linkedIn_link": "https://www.linkedin.com/company/cvpool/",
+                            "linkedIn_link": "",
                             "email1": "",
                             "email2": "",
                             "tel1": "",
                             "tel2": "",
                             "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "click2job",
+                            "link": "https://click2job.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/1CLICK2JOB/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "054-4744600",
+                            "tel2": "",
+                            "whatsapp": "0549848600",
                             "location": ""
                         }
                     ]
@@ -2880,7 +2966,78 @@
                             "location": ""
                         }
                     ]
+                },
+                {
+                    "cat": "חברות לאוכלוסיות ספציפיות",
+                    "links": [                       
+                        {
+                            "site_name": "עבודות לחרדים",
+                            "link": "https://jbh.org.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/jbh.org.il/",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "jobharedim@gmail.com",
+                            "email2": "",
+                            "tel1": "058-472-0100",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "הפצת קורות חיים",
+                    "links": [                       
+                        {
+                            "site_name": "RUNNER",
+                            "link": "http://runner.co.il",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/cvrunner",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "קורות חיים",
+                            "link": "http://korot-haim.co.il/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "Myresume",
+                            "link": "https://myresume.co.il/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
                 }
+
             ]
         },
         {
@@ -3774,7 +3931,7 @@
                             "location": ""
                         },
                         {
-                            "site_name": "דרושים",
+                            "site_name": "דרושים - drushim",
                             "link": "https://www.drushim.co.il",
                             "link2": "",
                             "facebook_link1": "https://www.facebook.com/drushim.co.il",
@@ -3879,7 +4036,7 @@
                             "location": ""
                         },
                         {
-                            "site_name": "מובטל",
+                            "site_name": "מובטל - muvtal",
                             "link": "https://www.muvtal.co.il",
                             "link2": "",
                             "facebook_link1": "https://www.facebook.com/muvtal",
@@ -4056,6 +4213,22 @@
                         {
                             "site_name": "Jobig",
                             "link": "https://jobig.co.il/",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "https://www.linkedin.com/company/jobig/",
+                            "instagram_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "JobSite",
+                            "link": "https://www.jobsite.co.il/",
                             "link2": "",
                             "facebook_link1": "",
                             "facebook_link2": "",
@@ -4252,6 +4425,21 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": "south"
+                        },
+                        {
+                            "site_name": "עוזרתלי",
+                            "link": "http://ozeret.co.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/ozeretli.co.il",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
                         }
                     ]
                 }
@@ -4338,6 +4526,26 @@
                             "facebook_link3": [],
                             "linkedIn_link": "https://www.linkedin.com/company/qlikisrael/",
                             "email1": "",
+                            "email2": "",
+                            "tel1": "",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                    ]
+                },
+                {
+                    "cat": "חברות בתחום התוכנה",
+                    "links": [
+                        {
+                            "site_name": "edusystems - אדיוסיסטמס",
+                            "link": "http://www.edusystems.co.il/ViewPage.asp?pagesCatID=23099&siteName=edusystems",
+                            "link2": "",
+                            "facebook_link1": "",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "info@edusystems.co.il",
                             "email2": "",
                             "tel1": "",
                             "tel2": "",
@@ -6287,7 +6495,7 @@
                             "facebook_link3": [],
                             "linkedIn_link": "https://www.linkedin.com/company/%D7%9E-%D7%A1-%D7%93-%D7%A9%D7%99%D7%A8%D7%95%D7%AA%D7%99-%D7%A1%D7%99%D7%A2%D7%95%D7%93-%D7%95%D7%A2%D7%95%D7%91%D7%93%D7%99%D7%9D-%D7%96%D7%A8%D7%99%D7%9D/about",
                             "email1": "karinb@m-s-d.co.il",
-                            "email2": "inon@m-s-d.co.il‏",
+                            "email2": "inon@m-s-d.co.il",
                             "tel1": "1-700-708-778",
                             "tel2": "",
                             "whatsapp": "",

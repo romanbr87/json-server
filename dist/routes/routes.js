@@ -47,13 +47,16 @@ router.get('/*', function (req, res, next) {
     res.status(404).json({ status: 404, message: "הדף לא קיים" });
 });
 router.post('/mail', function (req, res, next) {
-    const mailDetails = (req.body);
-    var { email, subject, body, name, tel } = mailDetails;
-    if (name.trim() == '')
+    const { data } = req.body; // Cast req.body to the expected type 
+    var { email, subject, name, tel, message } = data;
+    if (name.trim() === '')
         name = undefined;
-    if (tel.trim() == '')
+    if (tel.trim() === '')
         tel = undefined;
-    const mail = `Message from ${name} tel: ${tel}\n ${body.trim()}`;
+    if (email.trim() === '')
+        email = "romanbr@walla.com";
+    const mail = `Message from ${name} tel: ${tel}\n ${message.trim()}`;
+    console.log(mail);
     MailService_1.default.sendMail({ from: email, subject: subject, text: mail }, req, res);
 });
 router.post('/report', function (req, res, next) {
@@ -63,9 +66,9 @@ router.post('/report', function (req, res, next) {
 });
 router.post('/neworg', function (req, res, next) {
     const { data } = req.body; // Cast req.body to the expected type 
-    //const email = `${JSON.stringify(data, null, 2)}\n`;
-    //MailService.sendMail({ from: 'romanbr@walla.com', subject: 'new organization', text: email }, req, res);*/
-    res.send(data);
+    const email = `${JSON.stringify(data, null, 2)}\n`;
+    MailService_1.default.sendMail({ from: 'romanbr@walla.com', subject: 'new organization', text: email }, req, res);
+    //res.send(data);
 });
 router.post('/search', (req, res) => {
     const { location, searchText } = req.body;

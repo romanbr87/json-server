@@ -36,15 +36,17 @@ class MailService {
   public async sendMail(options: nodemailer.SendMailOptions, req: Request, res: Response): Promise<void> {
     try {
         if(!this.transporter) {
-          await this.createConnection();
+            await this.createConnection();
         }
       
         options.to = 'drushimgalil@gmail.com';
-  
+        console.log (options);
         const info = await this.getTransporter().sendMail(options);
         await this.verifyConnection(info);
+        res.send (options);
     } catch (err) {
       console.error(err);
+      res.status(404).json ({ status: 404, message: err})      
     }
   }
 
