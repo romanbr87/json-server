@@ -2,12 +2,40 @@ import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-d
 dotenv.config()
 import express, { NextFunction, Request, Response } from 'express';
 import * as fs from 'fs';
-import {Kishurit, Categorie, SubCategorie, Bussiness, Location} from '../types';
+import { Categorie, SubCategorie, Bussiness, Location, Mail, Kishurit } from '../types';
+
+
+//import db, { connectToDatabase, collection, collections } from '../db1';
+//import categoriesModel, { Category } from '../models/categories.model';
+//import SubCategoriesModel, { SubCategories }  from '../models/subCategories.model';
+//import writeCatToDB from '../copyToDB';
+
 import MailService from "../controller/MailService"
 const router: express.Router = express.Router()
 
 const rawdata: Buffer = fs.readFileSync('./src/db.json');
-const jsonDB = JSON.parse(rawdata.toString(), (key, value) => value);
+const jsonDB: Kishurit = JSON.parse(rawdata.toString(), (key, value) => value);
+
+//connectToDatabase();
+//console.log (db);
+//writeCatToDB (jsonDB);  
+
+
+  
+  
+  
+  
+  
+  
+/*categoriesModel.find().then((data: Category[]) => {
+    console.log(data);
+});*/
+
+/*const category: Category = new categoriesModel ({
+    name: 'bla', description: "hui"
+})
+
+category.save ()*/
 
 const verifyData = (data: any, res: Response, next: NextFunction): void => {
     (!data) ? next() : res.json(data);
@@ -24,14 +52,7 @@ router.get('/*', function(req: Request, res: Response, next: NextFunction) {
 })
 
 router.post('/mail', function(req: Request, res: Response, next: NextFunction) {
-    type Data = {    
-        email: string, 
-        subject: string, 
-        name: string, 
-        tel: string, 
-        message: string, 
-    }
-    const { data } = req.body as { data: Data}; // Cast req.body to the expected type 
+    const { data } = req.body as { data: Mail }; // Cast req.body to the expected type 
     var { email, subject, name, tel, message } = data;
     
     if (name.trim() === '') name = undefined;
@@ -50,26 +71,8 @@ router.post('/report', function(req: Request, res: Response, next: NextFunction)
   });
   
   router.post('/neworg', function(req: Request, res: Response, next: NextFunction) {
-    type Data = {    
-        description: string, 
-        email1: string, 
-        email2: string, 
-        facebook_link1: string, 
-        facebook_link2: string, 
-        instagram_link: string, 
-        link1: string, 
-        link2: string, 
-        link3: string, 
-        linkedIn_link: string, 
-        message: string, 
-        region: string, 
-        site_name: string, 
-        tel1: string, 
-        tel2: string, 
-        whatsapp: string, 
-    }
     
-    const { data } = req.body as { data: Data}; // Cast req.body to the expected type 
+    const { data } = req.body as { data: Bussiness}; // Cast req.body to the expected type 
     const email = `${JSON.stringify(data, null, 2)}\n`;
     MailService.sendMail({ from: 'romanbr@walla.com', subject: 'new organization', text: email }, req, res);
     //res.send(data);
@@ -112,7 +115,7 @@ router.post('/totalNum', function(req: Request, res: Response, next: NextFunctio
 router.post('/', function(req: Request, res: Response, next: NextFunction) { 
     type Data = {
         total: number,
-        cat: [{name: string, totNum: number}] 
+        cat: {name: string, totNum: number}[];
     }
 
     const data = jsonDB.job.reduce((acc: Data, element: Categorie) => {

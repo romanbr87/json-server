@@ -30,10 +30,25 @@ const dotenv = __importStar(require("dotenv")); // see https://github.com/motdot
 dotenv.config();
 const express_1 = __importDefault(require("express"));
 const fs = __importStar(require("fs"));
+//import db, { connectToDatabase, collection, collections } from '../db1';
+//import categoriesModel, { Category } from '../models/categories.model';
+//import SubCategoriesModel, { SubCategories }  from '../models/subCategories.model';
+//import writeCatToDB from '../copyToDB';
 const MailService_1 = __importDefault(require("../controller/MailService"));
 const router = express_1.default.Router();
 const rawdata = fs.readFileSync('./src/db.json');
 const jsonDB = JSON.parse(rawdata.toString(), (key, value) => value);
+//connectToDatabase();
+//console.log (db);
+//writeCatToDB (jsonDB);  
+/*categoriesModel.find().then((data: Category[]) => {
+    console.log(data);
+});*/
+/*const category: Category = new categoriesModel ({
+    name: 'bla', description: "hui"
+})
+
+category.save ()*/
 const verifyData = (data, res, next) => {
     (!data) ? next() : res.json(data);
 };

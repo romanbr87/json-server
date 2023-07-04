@@ -134,21 +134,6 @@
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
-                        },
-                        {
-                            "site_name": "עבודה נגישה",
-                            "link": "https://avodanegisha.labor.gov.il",
-                            "link2": "",
-                            "facebook_link1": "",
-                            "facebook_link2": "",
-                            "facebook_link3": [],
-                            "linkedIn_link": "",
-                            "email1": "",
-                            "email2": "",
-                            "tel1": "",
-                            "tel2": "",
-                            "whatsapp": "",
-                            "location": ""
                         }
                     ]
                 },
@@ -4871,16 +4856,16 @@
                     "cat": "חברות מים",
                     "links": [
                         {
-                            "site_name": "תמי4",
+                            "site_name": "תמי4 - שטראוס מים",
                             "link": "https://www.tami4.co.il/drushim",
                             "link2": "",
-                            "facebook_link1": "",
+                            "facebook_link1": "https://www.facebook.com/StraussWaterCareer",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
-                            "email1": "",
+                            "email1": "facebook@strauss-water.com",
                             "email2": "",
-                            "tel1": "",
+                            "tel1": "03-538-7621",
                             "tel2": "",
                             "whatsapp": "",
                             "location": ""
@@ -5303,7 +5288,7 @@
                             "site_name": "שופרסל",
                             "link": "https://www.shufersal.co.il/tadmit/%D7%93%D7%A8%D7%95%D7%A9%D7%99%D7%9D",
                             "link2": "",
-                            "facebook_link1": "https://www.facebook.com/shufersalHR",
+                            "facebook_link1": "https://www.facebook.com/profile.php?id=100086941403289",
                             "facebook_link2": "",
                             "facebook_link3": [],
                             "linkedIn_link": "",
@@ -6921,7 +6906,49 @@
                     ]
                 }
             ]
+        },
+        {
+            "name": "תעסוקה לאוכלוסיות ספציפיות",
+            "desc": "תעסוקה והכשרה מקצועית לאוכלוסיות כגון בעלי מוגבלויות, בני מיעוטים, חרדים וכו...",
+            "links": [
+                {
+                    "cat": "תעסוקה והכשרה לבעלי מוגבלויות",
+                    "links": [
+                        {
+                            "site_name": "עבודה נגישה",
+                            "link": "https://avodanegisha.labor.gov.il/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/AvodaNegisha",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "info.callcenter@gav.co.il",
+                            "email2": "",
+                            "tel1": "079-696-6055",
+                            "tel2": "",
+                            "whatsapp": "",
+                            "location": ""
+                        },
+                        {
+                            "site_name": "תעסוקה שווה",
+                            "link": "https://taasukashava.org.il/job-seekers/",
+                            "link2": "",
+                            "facebook_link1": "https://www.facebook.com/TaasukaShava",
+                            "facebook_link2": "",
+                            "facebook_link3": [],
+                            "linkedIn_link": "",
+                            "email1": "info@taasukashava.org.il",
+                            "email2": "",
+                            "tel1": "*3968",
+                            "tel2": "03-508-7888",
+                            "whatsapp": "",
+                            "location": ""
+                        }
+                   ]
+                }
+            ]
         }
+ 
     ],
     "text": {
 		"desc": "",
